@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
+// about screen
 export default function AboutScreen() {
   return (
     <View style={styles.container}>
@@ -11,6 +12,7 @@ export default function AboutScreen() {
   );
 }
 
+// ux ui handling
 const styles = StyleSheet.create({
   container: {
     flex: 1,

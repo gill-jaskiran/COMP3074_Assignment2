@@ -1,3 +1,8 @@
+// Assignment 2
+// Jaskiran Gill 
+// 101458336 
+// -------------------------------------------------------
+//imports
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -5,6 +10,8 @@ import MainScreen from './screens/MainScreen';
 import AboutScreen from './screens/AboutScreen';
 import { Provider as PaperProvider } from 'react-native-paper';
 
+
+// bottom navagator
 const Tab = createBottomTabNavigator();
 
 export default function App() {
